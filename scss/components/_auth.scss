@@ -1,0 +1,66 @@
+.auth {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  form {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.11);
+    padding: 50px;
+    h2 {
+      text-align: center;
+      font-weight: bold;
+    }
+    .form-group {
+      label {
+        font-weight: bold;
+        font-size: 13px;
+      }
+      .form-control {
+        border-radius: 5px;
+        input {
+          border: none;
+          outline: none;
+          border-radius: 0;
+          font-size: 14px;
+          color: rgb(90, 90, 90);
+          box-shadow: none;
+          width: 90%;
+        }
+        .input-icon {
+          color: $black;
+        }
+      }
+      button {
+        background: $black;
+        border: none;
+        outline: none;
+        box-shadow: none;
+      }
+      .auth-footer {
+        font-size: 13px;
+        font-weight: bold;
+      }
+    }
+    .social-login {
+      width: 100%;
+      text-align: center;
+      margin-top: 40px;
+      span {
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+      }
+      .social-icons {
+        .icon {
+          padding: 5px;
+          border-radius: 50px;
+          box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.11);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

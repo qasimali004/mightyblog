@@ -1,0 +1,12 @@
+@import "./base/variables";
+@import "./base/reset";
+
+// components
+
+@import "./components/header";
+@import "./components//home";
+@import "./components/auth";
+@import "./components/admin_dashboard.scss";
+@import "./components/admin/sidebar";
+@import "./components/admin/dashboaed";
+@import "./components//admin//stats-section";

@@ -1,0 +1,171 @@
+.home{
+    .post{
+        margin-bottom: 10px;
+        transition: 0.5s all ;
+        height: 230px;
+        .post-category{
+            background: $black;
+            color: $white;
+            padding: 5px 10px;
+            border-radius: 50px;
+            font-size: 12px;
+        }
+        .post-title{
+            font-size: 18px;
+        }
+        .post-content{
+            max-height: 65px;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 14px;
+            color: rgb(156, 156, 156);
+        }
+        .date{
+            font-size: 13px;
+            color: $black;
+        }
+        .views{
+            font-size: 13px;
+            color: $black;
+        }
+        .comments{
+            font-size: 13px;
+            color: $black;
+        }
+    }
+    .post:hover{
+        box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.171);
+    }
+    .sidebar{
+        .search-box{
+            p{
+                font-size: 13px;
+                color: gray;
+            }
+            padding: 20px;
+            transition: 0.5s all;
+            .search{
+                border: 1px solid gray;
+                padding: 5px;
+                padding-left: 10px;
+                border-radius: 50px;
+                input{
+                    border: none;
+                    outline: none;
+                    width: 90%;
+                    font-size: 15px;
+                }
+                button{
+                    border: none;
+                    outline: none;
+                    width: 10%;
+                }
+            }
+        }
+        .search-box:hover{
+            box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.171);
+        }
+        .categories{
+            padding: 20px;
+            transition: 0.5s all;
+            p{
+                font-size: 13px;
+                color: gray;
+            }
+            ul{
+                list-style-type: none;
+                padding:10px;
+                li{
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 220%;
+                }
+            }
+            li{
+                cursor: pointer;
+                width: 100%;
+            }
+            .count{
+                background: $black;
+                color: $white;
+                border-radius: 50px;
+                font-size: 11px;
+                padding: 5px;
+                position: relative;
+                left: 200px;
+            }
+            
+        }
+        .categories:hover{
+            box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.171);
+        }
+        .popular-posts{
+            padding: 20px;
+            transition: 0.5s all;
+            p{
+                font-size: 13px;
+                color: gray;
+            }
+            .p-post{
+                cursor: pointer;
+                margin-bottom: 5px;
+                img{
+                    border-radius: 5px;
+                }
+                .pp-title{
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                span{
+                    font-size: 13px;
+                    position: relative;
+                    top: -10px;
+                }
+            }
+        }
+        .popular-posts:hover{
+            box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.171);
+        }
+    }
+    .single-post{
+        padding: 20px;
+        transition: 0.5s all;
+        .post-category{
+            background: $black;
+            color: $white;
+            padding: 5px 10px;
+            border-radius: 50px;
+            font-size: 12px;
+            width: 60px;
+            text-align: center;
+        }
+        .sp-head{
+            span{
+                font-size: 12px;
+            }
+        }
+        .post-tags{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            .tags{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                overflow: hidden;
+                span{
+                    background: $black;
+                    color: $white;
+                    cursor: pointer;
+                    margin: 5px;
+                    padding: 3px 6px;
+                    border-radius: 50px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .single-post:hover{
+        box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.171);
+    }
+}

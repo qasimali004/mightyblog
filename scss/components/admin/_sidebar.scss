@@ -1,0 +1,40 @@
+.sidenav{
+    border-right: 1px solid rgba(128, 128, 128, 0.171);
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+    .navbar-brand{
+        color: $black;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .dvider{
+        width: 70%;
+        background: rgba(255, 255, 255, 0.075);
+        height: 2px;
+        margin: 10px 0;
+    }
+    ul{
+        li{
+            cursor: pointer;
+            padding: 6px 0;
+            margin-top: 10px;
+            color: rgb(119, 119, 119);
+            a{
+                color: $black;
+                font-size: 13px;
+                font-weight: bold;
+                text-decoration: none;
+                .nav-icon{
+                    position: relative;
+                    top: -2px;
+                }
+                .nav-icon.hide{
+                    display: none;
+                }
+            }
+        }
+        li:hover{
+            background: rgba(128, 128, 128, 0.171);
+        }
+    }
+}
